@@ -50,7 +50,7 @@ public class MainClassList {
         Collections.reverse(list2_int);
         System.out.println(list2_int);
 
-        Calc.returnValue(5);
+        Calc.returnVal(5);
         System.out.println("---The End---");
     }
 }
