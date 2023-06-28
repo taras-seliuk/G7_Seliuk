@@ -6,7 +6,7 @@ import java.util.List;
 
 public class MainClassList {
     public static void main(String[] args) {
-        List<String> lis_1 = new ArrayList();
+        List<String> lis_1 = new ArrayList<>();
         System.out.println(lis_1);
         lis_1.add("Test_1");
         lis_1.add("Test_2");
@@ -23,7 +23,7 @@ public class MainClassList {
         System.out.println(lis_1);
         System.out.println("----------------------------");
         for (int i = 0; i < lis_1.size(); i++) {
-            System.out.println(i + "." + lis_1.get(i));
+            System.out.println(i+1 + "." + lis_1.get(i));
         }
         System.out.println("--------------");
 
